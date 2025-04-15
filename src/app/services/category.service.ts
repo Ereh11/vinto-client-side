@@ -7,7 +7,7 @@ import { Category } from '../models/category.model';
   providedIn: 'root',
 })
 export class CategoryService {
-  private URL = 'http://localhost:4000/api/categories';
+  private URL = 'https://vinto-ecommerce-api-production.up.railway.app/api/categories';
 
   constructor(public http: HttpClient) {}
 
