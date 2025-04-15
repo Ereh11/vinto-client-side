@@ -7,7 +7,7 @@ import { WishlistResponse } from '../models/wish.model';
   providedIn: 'root',
 })
 export class WishService {
-  URL: string = 'http://localhost:4000/api/wishlist';
+  URL: string = 'https://vinto-ecommerce-api-production.up.railway.app/api/wishlist';
 
   constructor(private http: HttpClient) {}
 
